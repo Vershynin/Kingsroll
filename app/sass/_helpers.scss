@@ -1,0 +1,23 @@
+.unpadding {
+  padding: 0 !important;
+}
+
+a {
+  outline: none;
+}
+
+
+.outlinenone {
+  outline: none;
+  &:hover, &:active, &:visited, &:focus {
+    outline: none;
+  }
+}
+
+.lastli-unmargin {
+  li {
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
